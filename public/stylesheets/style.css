@@ -1,8 +1,39 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+/* Import Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* End Import Font */
+
+
+/* Start Menus Style  */
+.text-tpu {
+  color: #C4BE26;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 40px;
+  padding-top: 20px;
 }
 
-a {
-  color: #00B7FF;
+.loc-list {
+  padding: 15px 40px;
+  font-family: 'Open Sans', sans-serif;
+  /* text-decoration: none; */
+  font-weight: bold;
+  font-size: 13px;
+  color: #fff;
+  text-align: justify;
+  /* border: 1px solid #fff; */
+  background-color: #24b554;
 }
+
+.loc-list:hover {
+  background-color: #1a512d;
+  cursor: pointer;
+}
+
+/* End Menus Style */
+
+/* Crousel Style */
+
+/* End Crousel Style */
