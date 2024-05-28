@@ -3,7 +3,13 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('home/view', { title: 'Express' });
+});
+
+// Get Detail TPU Karet Bivak 
+
+router.get('/tpu-karet', function(req, res, next) {
+  res.render('tpu_karet/view', { title: 'Express' });
 });
 
 module.exports = router;
