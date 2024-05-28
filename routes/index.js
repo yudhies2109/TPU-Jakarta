@@ -18,4 +18,10 @@ router.get('/tpu-psbb', function(req, res, next) {
   res.render('tpu_psbb/view', { title: 'Express' });
 });
 
+// Get Detail TPU KAWI
+
+router.get('/tpu-kawi', function(req, res, next) {
+  res.render('tpu_kawi/view', { title: 'Express' });
+});
+
 module.exports = router;
