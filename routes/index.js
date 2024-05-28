@@ -12,4 +12,10 @@ router.get('/tpu-karet', function(req, res, next) {
   res.render('tpu_karet/view', { title: 'Express' });
 });
 
+// Get Detail TPU PSBB 
+
+router.get('/tpu-psbb', function(req, res, next) {
+  res.render('tpu_psbb/view', { title: 'Express' });
+});
+
 module.exports = router;
