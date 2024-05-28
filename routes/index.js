@@ -24,4 +24,11 @@ router.get('/tpu-kawi', function(req, res, next) {
   res.render('tpu_kawi/view', { title: 'Express' });
 });
 
+// Get Detail TPU PETAMBURAN
+
+router.get('/tpu-petamburan', function(req, res, next) {
+  res.render('tpu_petamburan/view', { title: 'Express' });
+});
+
+
 module.exports = router;
